@@ -1,4 +1,4 @@
-application,service,application_env,repo_id,repo_branch,job_template,dockerfile,context,environment_master,pre_hooks
-bpctl-demo,test-dummy,dev,TestDummy,master,bpctl-demo-v2,Dockerfile,.,dev,pwd;ls;ls
-bpctl-demo,homebridge-dummy,qa,homebridge-dummy,master,bpctl-demo-v2,Dockerfile,.,qa,pwd;ls;ls;pwd
-bpctl-demo,test-dummy,qa,TestDummy,gh-pages,bpctl-demo-v2,Dockerfile,.,qa,pwd;ls
+application,service,application_env,repo_id,repo_branch,job_template,dockerfile,context,environment_master
+bpctl-demo,test-dummy,dev,TestDummy,master,bpctl-demo-v2,Dockerfile,.,dev
+bpctl-demo,homebridge-dummy,qa,homebridge-dummy,master,bpctl-demo-v2,Dockerfile,.,qa
+bpctl-demo,test-dummy,qa,TestDummy,gh-pages,bpctl-demo-v2,Dockerfile,.,qa
