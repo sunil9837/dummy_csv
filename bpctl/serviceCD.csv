@@ -2,3 +2,4 @@ application,service,application_env,desired_replication,requests_memory_quota,re
 bpctl-demo,test-dummy,dev-test,1,1000,500,2000,1000,dev,8093,9080,'/test/healthCheck',8093,30,5,10,5,bpctl-demo-v2
 bpctl-demo,test-dummy,qa-test,1,1000,500,2000,1000,qa,8093,9080,'/test/healthCheck',8093,30,5,10,5,bpctl-demo-v2
 bpctl-demo,homebridge-dummy,dev-test,1,1000,500,2000,1000,dev,8093,9080,'/test/healthCheck',8093,30,5,10,5,bpctl-demo-v2
+bpctl-demo,homebridge-dummy,prod-test,1,1000,500,2000,1000,prod,8093,9080,'/test/healthCheck',8093,30,5,10,5,bpctl-demo-v2
