@@ -1,5 +1,2 @@
 application,service,application_env,repo_id,repo_branch,job_template,dockerfile,context,environment_master
-bpctl-demo,test-dummy,dev-test,TestDummy,master,bpctl-demo-v2,Dockerfile,.,dev
-bpctl-demo,homebridge-dummy,qa-test,homebridge-dummy,master,bpctl-demo-v2,Dockerfile,.,qa
-bpctl-demo,homebridge-dummy,prod-test,homebridge-dummy,master,bpctl-demo-v2,Dockerfile,.,prod
-bpctl-demo,test-dummy,qa-test,TestDummy,gh-pages,bpctl-demo-v2,Dockerfile,.,qa
+bpctl-demo,test-dummy,uat-test,TestDummy,master,bpctl-demo-v2,Dockerfile,.,uat
