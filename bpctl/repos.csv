@@ -1,3 +1,0 @@
-reponame,git_provider,url,git_credential
-TestDummy,github,https://github.com/laracasts/TestDummy.git,null
-homebridge-dummy,github,https://github.com/nfarina/homebridge-dummy.git,null
