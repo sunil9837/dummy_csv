@@ -34,7 +34,28 @@ reponame,git_provider,url,git_credential
 TestDummy,github,https://github.com/laracasts/TestDummy.git,null
 ```
 
-**2. serviceCD.csv**
+**2. serviceCI.csv**
+
+This file contains data related to Continuous Integration (CI) configuration. The columns are:
+
+- `application`: The name of the application.
+- `service`: The name of the service.
+- `application_env`: The environment in which the service is built.
+- `repo_id`: The ID of the repository.
+- `repo_branch`: The branch of the repository used for the service.
+- `job_template`: The job template used for CI.
+- `dockerfile`: The Dockerfile used for building the service.
+- `context`: The context directory for Docker.
+- `environment_master`: The master environment.
+
+**Sample:**
+
+```
+application,service,application_env,repo_id,repo_branch,job_template,dockerfile,context,environment_master
+app-name1,test-dummy,uat-test,TestDummy,master,app-name1-v2,Dockerfile,.,uat
+```
+
+**3. serviceCD.csv**
 
 This file contains data related to Continuous Deployment (CD) configuration. The columns are:
 
@@ -62,25 +83,4 @@ This file contains data related to Continuous Deployment (CD) configuration. The
 ```
 application,service,application_env,desired_replication,requests_memory_quota,requests_cpu_quota,limits_cpu_quota,limits_memory_quota,environment_master,target_port,app_port,readiness_probe_path,readiness_probe_port,readiness_initial_delay_seconds,readiness_period_seconds,readiness_timeout_seconds,readinesss_failure_threshold,job_template
 app-name1,test-dummy,dev-test,1,1000,500,2000,1000,dev,8093,9080,'/test/healthCheck',8093,30,5,10,5,app-name1-v2
-```
-
-**3. serviceCI.csv**
-
-This file contains data related to Continuous Integration (CI) configuration. The columns are:
-
-- `application`: The name of the application.
-- `service`: The name of the service.
-- `application_env`: The environment in which the service is built.
-- `repo_id`: The ID of the repository.
-- `repo_branch`: The branch of the repository used for the service.
-- `job_template`: The job template used for CI.
-- `dockerfile`: The Dockerfile used for building the service.
-- `context`: The context directory for Docker.
-- `environment_master`: The master environment.
-
-**Sample:**
-
-```
-application,service,application_env,repo_id,repo_branch,job_template,dockerfile,context,environment_master
-app-name1,test-dummy,uat-test,TestDummy,master,app-name1-v2,Dockerfile,.,uat
 ```
