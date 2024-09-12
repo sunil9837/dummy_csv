@@ -1,5 +1,5 @@
 application,service,application_env,desired_replication,requests_memory_quota,requests_cpu_quota,limits_cpu_quota,limits_memory_quota,environment_master,target_port,app_port,readiness_probe_path,readiness_probe_port,readiness_initial_delay_seconds,readiness_period_seconds,readiness_timeout_seconds,readinesss_failure_threshold,job_template
-bpctl-demo,test-dummy,dev-test,1,1000,500,2000,1000,dev,8093,9080,'/test/healthCheck',8093,30,5,10,5,bpctl-demo-v2
-bpctl-demo,test-dummy,qa-test,1,1000,500,2000,1000,qa,8093,9080,'/test/healthCheck',8093,30,5,10,5,bpctl-demo-v2
-bpctl-demo,homebridge-dummy,dev-test,1,1000,500,2000,1000,dev,8093,9080,'/test/healthCheck',8093,30,5,10,5,bpctl-demo-v2
-bpctl-demo,homebridge-dummy,prod-test,1,1000,500,2000,1000,prod,8093,9080,'/test/healthCheck',8093,30,5,10,5,bpctl-demo-v2
+mcp-frontend,test-dummy,dev-test,1,1000,500,2000,1000,dev,8093,9080,'/test/healthCheck',8093,30,5,10,5,mcp-frontend-v2
+mcp-frontend,test-dummy,qa-test,1,1000,500,2000,1000,qa,8093,9080,'/test/healthCheck',8093,30,5,10,5,mcp-frontend-v2
+mcp-frontend,homebridge-dummy,dev-test,1,1000,500,2000,1000,dev,8093,9080,'/test/healthCheck',8093,30,5,10,5,mcp-frontend-v2
+mcp-frontend,homebridge-dummy,prod-test,1,1000,500,2000,1000,prod,8093,9080,'/test/healthCheck',8093,30,5,10,5,mcp-frontend-v2
